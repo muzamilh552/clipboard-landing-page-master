@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    overflow-x: hidden;
+}
+
+.Header {
+    background-image: url("images/bg-header-desktop.png");
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.logoVector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.Header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.Header p {
+    font-size: 15px;
+    columns: #777;
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 37vw;
+    word-wrap: break-word;
+    margin-left: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 200px;
+
+}
+
+.ios {
+    background: hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 25px;
+    width: 145px;
+    height: 35px;
+    border: none;
+}
+
+.ios:hover {
+    background: #26baa5;
+    color: #fff;
+}
+
+.mac {
+    background: hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 25px;
+    width: 145px;
+    height: 35px;
+    border: none;
+}
+
+.mac:hover {
+    background: #5e67ff;
+    color: #fff;
+}
+
+.track {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.track h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.track p {
+    font-size: 15px;
+    columns: hsl(210, 10%, 33%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 38vw;
+    word-wrap: break-word;
+    margin-left: 390px;
+    padding-bottom: 30px;
+}
+
+.desktopSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding-bottom: 60px;
+}
+
+.computer {
+    width: 40%;
+    height: auto;
+}
+
+.LeftSide {
+    display: flex;
+    flex-direction: column;
+    line-height: 21px;
+}
+
+.LeftSide h2 {
+    color: black;
+    font-size: 19px;
+
+}
+
+.LeftSide p {
+    columns: hsl(210, 10%, 33%);
+    font-size: 14px;
+    margin-bottom: 40px;
+    width: 21vw;
+    word-wrap: break-word;
+
+}
+
+.devices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin-left: 360px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.textIcon,
+.Aicon,
+.viewIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 23px;
+}
+
+.blacklists,
+.Text,
+.preview {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    margin-left: 160px;
+}
+
+.blacklists {
+    margin-left: 150px;
+}
+
+.textIcon,
+.Aicon,
+.viewIcon,
+h2 {
+    color: black;
+    width: 25vw;
+    word-wrap: break-word;
+    columns: #777;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.Header1 {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.Header1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.Header1 p {
+    font-size: 15px;
+    columns: hsl(210, 10%, 33%);
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 37vw;
+    word-wrap: break-word;
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #eee;
+    padding: 30px 20px;
+    font-size: 14px;
+    color: hsl(210, 10%, 33%);
+}
+
+.Clogo {
+    width: 40px;
+
+}
+
+.footer-links,
+.social-icons {
+    margin-top: 10px;
+}
+
+.footer-links a,
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+a:hover {
+    color: #16af98;
+}

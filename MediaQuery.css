@@ -1,0 +1,153 @@
+@media (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    
+    .Header {
+        background-image: url("images/bg-header-mobile.png");
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logoVector {
+
+        max-width: 20%;
+    }
+
+    .Header h1 {
+        max-width: 190px;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .Header p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .track {
+        padding-top: 0;
+    }
+
+    .track h1 {
+        font-size: 1.6rem;
+        padding: 0 100px;
+        text-align: center;
+
+    }
+
+    .track p {
+        font-size: .9rem;
+        text-align: center;
+        width: 42vw;
+        word-wrap: break-word;
+        margin-left: 140px;
+        padding-bottom: 2px;
+    }
+
+    .desktopSection {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 6px;
+    }
+
+    .LeftSide h2 {
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .LeftSide p {
+        width: 100%;
+        text-align: center;
+        font-size: .9rem;
+        padding: 0 160px;
+    }
+
+    .devices {
+        width: 40%;
+        height: auto;
+        margin-left: 140px;
+
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .blacklists,
+    .Text,
+    .preview {
+        width: 40px;
+        margin-left: 80px;
+        padding-top: 30px;
+    }
+
+    .textIcon,
+    .Aicon,
+    .viewIcon,
+    h2 {
+        font-size: 1.4rem;
+        width: 40vw;
+        font-weight: 700;
+    }
+
+    .textIcon,
+    .Aicon,
+    .viewIcon,
+    p {
+        font-size: .9rem;
+        width: 40vw;
+        color: hsl(201, 11%, 66%);
+    }
+
+    .Header1 {
+        padding-top: 4px;
+    }
+
+    .Header1 h1 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 15px;
+        padding: 0 140px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+
+}
